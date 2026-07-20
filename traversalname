@@ -1,0 +1,12 @@
+public class main{
+    public static void main(String[]args){
+        int[] marks={466,452,454,457,460,418,428,413,420,400};
+        String[] name={"Mahesh","Amsa","Pathma","Maghi","Nisha","Dharshini","Priya","Sowmi","Durka","Sound"};
+        for(int i=0;i<marks.length;i++)
+        {
+            System.out.println(name[i]+"="+marks[i]);
+        }
+    }
+}
+        
+    
