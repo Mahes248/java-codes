@@ -1,0 +1,25 @@
+class mydaddy {
+    void display() {
+        System.out.println("My father is a Weaver.");
+    }
+}
+class mybrother extends mydaddy {
+    void show() {
+        System.out.println("My brother is a Doctor.");
+    }
+}
+class me extends mydaddy {
+    void display() {
+        System.out.println("I am an Engineer.");
+    }
+}
+public class Main {
+    public static void main(String[]args) {
+        me obj=new me();
+        obj.display();
+        mybrother bro=new mybrother();
+        bro.show();
+        bro.display();
+    }
+}
+    
